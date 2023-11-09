@@ -1,4 +1,4 @@
-# CastorEDCVascularTree
+# PrematureAtherosclerosisFamilyTree
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
@@ -11,13 +11,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - [Contributing](#contributing)
 
 ## Introduction
-CastorEDCVascularTree Application is a powerful web-based tool built using the Angular framework. It enables users, including both doctors and patients, to create comprehensive genealogy trees based on family cardiovascular medical history and risk factors. The application extracts relevant information from a formulary, which includes data on risk factors such as diabetes, hypertension, and more.
+PrematureAtherosclerosisFamilyTree Application is a powerful web-based tool built using the Angular framework. It enables users, including both doctors and patients, to create comprehensive genealogy trees based on family cardiovascular medical history and risk factors. The application extracts relevant information from a formulary, which includes data on risk factors such as diabetes, hypertension, and more.
 
 With this application, users can visualize and analyze up to five generations of a family tree, allowing for a comprehensive overview of the cardiovascular risk within a family lineage. Each individual in the tree is represented by icons that indicate the presence of specific risk factors, providing an intuitive and visually informative representation.
 
 The user interface of the application is meticulously designed to be both simple and elegant. This ensures that both doctors and patients can effortlessly navigate and comprehend the cardiovascular risk assessment. The intuitive nature of the interface allows users to quickly identify patterns, recognize potential risk factors, and make informed decisions regarding preventive measures and treatment options.
 
-CastorEDCVascularTree serves as a valuable tool for healthcare professionals and individuals alike, facilitating a deeper understanding of familial cardiovascular risk factors. By leveraging the power of Angular and providing an elegant user experience, this application empowers users to make informed decisions and take proactive steps towards mitigating the risks associated with cardiovascular diseases.
+PrematureAtherosclerosisFamilyTree serves as a valuable tool for healthcare professionals and individuals alike, facilitating a deeper understanding of familial cardiovascular risk factors. By leveraging the power of Angular and providing an elegant user experience, this application empowers users to make informed decisions and take proactive steps towards mitigating the risks associated with cardiovascular diseases.
 
 - **Dynamic Tree Visualization**: The application generates interactive genealogy trees that can display up to five generations, providing a comprehensive view of familial relationships and cardiovascular risk factors.
 
