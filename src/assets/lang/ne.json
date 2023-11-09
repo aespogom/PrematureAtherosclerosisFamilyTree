@@ -1,0 +1,70 @@
+{
+    "STUDIES": {
+        "TITLE":"ONDERZOEK",
+        "SUBTITLE": "Kies een onderzoek"
+    },
+    "PARTICIPANTS":{
+        "TITLE": "Deelnemers",
+        "SUBTITLE": "Kies een deelnemer",
+        "SEARCH": "Zoeken"
+    },
+    "ICONS":{
+        "FIRSTNAME":"Voornaam",
+        "BIRTHDATE":"Geboortejaar",
+        "DIABETES": "Diabetes mellitus",
+        "HYPERTENSION": "Hypertensie",
+        "LOW_HDL": "Laag HDL",
+        "LDL": "Onbehandeld LDL",
+        "SMOKER": "Roker",
+        "PAST_SMOKER": "Past smoker",
+        "NON_SMOKER": "Verleden roker",
+        "DEAD": "Overleden",
+        "RESUCITED": "Succesvolle resucitatie",
+        "SUDDEN_DEAD": "Overleden voor 65",
+        "CUSTOM": "Aangepaste functie",
+        "CVD_LOW": "Hart en vaatziekten (HVZ) < 51 ♀ / 56 ♂",
+        "CVD_HIGH": "Hart en vaatziekten (HVZ) > 51 ♀ / 56 ♂"
+    },
+    "ERROR": {
+        "TITLE": "Er is een fout opgetreden!",
+        "SUBTITLE": "Er is een fout opgetreden!",
+        "DETAIL_1": "Probeer de app opnieuw te laden of neem contact op met de ontwikkelaar",
+        "DETAIL_2": " (kopieer en plak het volgende bericht in de e-mail) ",
+        "AUTHENTICATION_EXPIRED": " Verlopen authenticatie ",
+        "RETRY_AUTHENTICATION": "... Authenticatie opnieuw proberen ... "
+    },
+    "ELEMENTS":{
+        "FIRSTNAME":"Voornaam",
+        "BIRTHDATE":"Geboorte (jaar)",
+        "DIABETES": "Diabetes mellitus sinds (jaren oud)",
+        "HYPERTENSION": "Hypertensie sinds (jaren oud)",
+        "LOW_HDL": "HDL-niveaus",
+        "LDL": "LDL-niveaus",
+        "SMOKER": "Huidige roker",
+        "PAST_SMOKER": "Eerdere roker",
+        "NON_SMOKER": "Niet roker",
+        "DEAD": "Overleden op (jaren oud)",
+        "RESUCITED": "Succesvolle resucitatie in (jaar)",
+        "SUDDEN_DEAD": "Overleden op (jaren oud)",
+        "CUSTOM": "Aangepast kenmerk",
+        "CVD": "Hart en vaatziekten (HVZ) op (jaren oud)",
+        "STENOSIS": "Stenosis",
+        "BMI": "Body Mass Index",
+        "LPA":"Lipoproteïne (Lp(a))",
+        "AJMALINE":"Ajmalinetest",
+        "FATTY_LIVER":"Vette Lever Index",
+        "ALAT":"Alanine aminotransferase (ALAT)",
+        "TRIGLY":"Untreated Triglycerides",
+        "CAC": "CAC-score (Agaston-score)",
+        "HDL_DETAIL":"HDL",
+        "UNTREATED_LDL":"Onbehandeld LDL-cholesterol"
+    },
+    "EDIT":{
+        "SURVEY": "Enquête bewerken",
+        "CUSTOM": "Aangepaste functie bewerken",
+        "RELATE": "Relate met andere deelnemer"
+    },
+    "CLOSE": "Sluit",
+    "FOOTER": "Medische Informatica afdeling (Ana Esponera)"
+
+}

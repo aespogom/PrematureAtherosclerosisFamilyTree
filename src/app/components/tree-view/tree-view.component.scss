@@ -1,0 +1,157 @@
+:host ::ng-deep #graph {
+    width: 100%;
+    height: 100%;
+    overflow: visible !important;
+}
+
+
+:host ::ng-deep .bft-edit-form-instruments {
+    display: flex;
+    justify-content: center;
+}
+
+:host ::ng-deep .blockSubtree > g[data-ctrl-n-c-menu-id] {
+    visibility: hidden;
+}
+
+:host ::ng-deep [data-l-id] path {
+    stroke: black;
+    stroke-width: 3px;
+}
+
+:host ::ng-deep .bft-input {
+    width: -webkit-fill-available !important;
+}
+
+// :host ::ng-deep #graph .bft-family-menu div:nth-child(7) > span {
+//     margin: -30px;
+// }
+
+:host ::ng-deep #bft-avatar{
+    visibility: hidden !important;
+}
+
+:host ::ng-deep #undo-button{
+    position: fixed;
+    top: 1rem;
+    left: 55vw;
+    visibility: hidden;
+    button {
+        background-color: #ec7817;
+        border: 3px solid #0a3740;
+    }
+}
+
+/* Small laptop */
+@media only screen and (min-width : 1024px) {
+    :host ::ng-deep form {
+        height: inherit !important;
+    }
+    :host ::ng-deep div[data-ctrl-menu] {
+        height: 3rem !important;
+        width: 3rem !important;
+        hr {
+            margin-block: 0.5rem !important;
+            height: 0.1rem !important;
+        }
+    }
+    :host ::ng-deep .bft-family-menu{
+        // width: unset !important;
+        height: 20rem !important;
+        // font-size: small !important;
+        top: 5rem !important;
+        right: 3rem !important;
+        overflow: auto;
+        div[data-item] > g > svg, div[data-item] > svg {
+            height: 23px !important;
+            width: 23px !important;
+            // margin: unset !important;
+        }
+    }
+    :host ::ng-deep .bft-edit-form{
+        width: 22rem !important;
+    }
+    :host ::ng-deep .bft-edit-form-title{
+        font-size: 2rem !important;
+        padding-top: 2rem !important;
+    }
+    :host ::ng-deep div[data-edit-from-btn] {
+        height: 3rem !important;
+        width: 3rem !important;
+        g > svg {
+            width: 2rem !important;
+            height: 2rem !important;
+        }
+    }
+    // :host ::ng-deep input[data-binding] {
+    //     height: unset !important;
+    //     font-size: unset !important;
+    // }
+    // :host ::ng-deep .bft-button {
+    //     height: unset !important;
+    //     font-size: unset !important;
+    // }
+    
+}
+/* Medium Laptop */
+@media only screen and (min-width : 1440px) {
+    :host ::ng-deep .bft-family-menu{
+        right: 3rem !important;
+    }
+}
+/* Large laptop */
+@media only screen and (min-width : 2560px) {
+    :host ::ng-deep .bft-family-menu{
+        right: 3rem !important;
+    }
+}
+/* Monitors, Screens */
+@media only screen and (min-width : 5000px) {
+    :host ::ng-deep form {
+        height: 70rem !important;
+    }
+    :host ::ng-deep div[data-ctrl-menu] {
+        height: 10rem !important;
+        width: 10rem !important;
+        hr {
+            margin-block: 1rem !important;
+            height: 10px !important;
+        }
+    }
+    :host ::ng-deep .bft-family-menu{
+        width: fit-content !important;
+        height: fit-content !important;
+        font-size: 4rem I !important;
+        right: 3rem !important;
+        top: 10rem !important;
+        overflow: auto;
+        div[data-item] > g > svg, div[data-item] > svg {
+            height: 10rem !important;
+            width: 10rem !important;
+            margin: 1rem !important;
+        }
+    }
+    :host ::ng-deep .bft-edit-form{
+        width: 100rem !important;
+    }
+    :host ::ng-deep .bft-edit-form-title{
+        font-size: 7rem !important;
+        padding-top: 5rem !important;
+    }
+    :host ::ng-deep div[data-edit-from-btn] {
+        height: 13rem !important;
+        width: 13rem !important;
+        g > svg {
+            width: 8rem !important;
+            height: 12rem !important;
+        }
+    }
+    :host ::ng-deep input[data-binding] {
+        height: 10rem !important;
+        font-size: 5rem !important;
+    }
+    :host ::ng-deep .bft-button {
+        height: 10rem !important;
+        font-size: 5rem !important;
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "STUDIES": {
+        "TITLE":"STUDIES",
+        "SUBTITLE": "Choose a study"
+    },
+    "PARTICIPANTS":{
+        "TITLE": "Participants",
+        "SUBTITLE": "Choose a participant",
+        "SEARCH": "Search"
+    },
+    "ICONS":{
+        "DIABETES": "Diabetes mellitus",
+        "HYPERTENSION": "Hypertension",
+        "LOW_HDL": "Low HDL",
+        "LDL": "Untreated LDL",
+        "SMOKER": "Smoker",
+        "PAST_SMOKER": "Past smoker",
+        "NON_SMOKER": "Non smoker",
+        "DEAD": "Deceased",
+        "RESUCITED": "Successful resucitation",
+        "SUDDEN_DEAD": "Deceased before 65",
+        "CUSTOM": "Custom feature",
+        "CVD_LOW": "Cardiovascular Disease (CVD) < 51 ♀ / 56 ♂",
+        "CVD_HIGH": "Cardiovascular Disease (CVD) > 51 ♀ / 56 ♂"
+    },
+    "ERROR": {
+        "TITLE": "An error has occurred!",
+        "SUBTITLE": "Something went wrong!",
+        "DETAIL_1": "Try to reload the app or contact with the developer",
+        "DETAIL_2": " (copy and paste the following message in the email) ",
+        "AUTHENTICATION_EXPIRED": " Expired authentication ",
+        "RETRY_AUTHENTICATION": "... Retrying authentication ... "
+    },
+    "ELEMENTS":{
+        "FIRSTNAME":"Firstname",
+        "BIRTHDATE":"Birth (year)",
+        "DIABETES": "Diabetes mellitus since (years-old)",
+        "HYPERTENSION": "Hypertension since (years-old)",
+        "LOW_HDL": "HDL levels",
+        "LDL": "LDL levels",
+        "SMOKER": "Current smoker",
+        "PAST_SMOKER": "Past smoker",
+        "NON_SMOKER": "Non smoker",
+        "DEAD": "Deceased at (years-old)",
+        "RESUCITED": "Successful resucitation in (year)",
+        "SUDDEN_DEAD": "Deceased at (years-old)",
+        "CUSTOM": "Custom feature",
+        "CVD": "Cardiovascular Disease (CVD) at (years-old)",
+        "BMI": "Body Mass Index",
+        "LPA":"Lipoprotein (Lp(a))",
+        "AJMALINE":"Ajmaline test",
+        "FATTY_LIVER":"Fatty Liver Index",
+        "ALAT":"Alanine aminotransferase (ALAT)",
+        "TRIGLY":"Untreated Triglycerides",
+        "CAC": "CAC score (Agaston score)",
+        "HDL_DETAIL":"HDL",
+        "UNTREATED_LDL":"Untreated LDL cholesterol"
+    },
+    "EDIT":{
+        "SURVEY": "Edit survey",
+        "CUSTOM": "Edit custom feature",
+        "RELATE": "Relate with other participant"
+    },
+    "CLOSE": "Close",
+    "FOOTER": "Medical Informatics department (Ana Esponera)"
+
+}

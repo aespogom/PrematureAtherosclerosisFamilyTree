@@ -1,0 +1,21 @@
+.footer-custom{
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    bottom: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: transparent;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    font-size: smaller;
+
+}
+
+.logo{
+    max-height: 2vh;
+    padding: 1rem 4rem;
+}

@@ -1,0 +1,19 @@
+<form class="search-bar">
+  <mat-form-field appearance="fill">
+    <mat-label>{{'PARTICIPANTS.SEARCH' | translate}}</mat-label>
+    <input matInput [(ngModel)]="searchTerm" [ngModelOptions]="{standalone: true}" (ngModelChange)="filterPatients($event)"/>
+    <mat-icon matPrefix>search</mat-icon>
+  </mat-form-field>
+</form>
+<mat-selection-list [multiple]="false">
+  <div class="tree" *ngFor="let patient of search_list">
+    <ul>
+      <li>
+        <a [ngClass]="{'disabled' : patient_selected && patient.patient_id == patient_selected.patient_id}"
+        (click)="onPress(patient)" id={{patient.patient_id}}
+        title="{{patient.name}}">{{patient.name}}
+        </a>
+      </li>
+    </ul>
+  </div> 
+</mat-selection-list>

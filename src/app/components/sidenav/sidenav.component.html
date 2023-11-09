@@ -1,0 +1,37 @@
+<mat-drawer #drawer class="example-sidenav" mode="side" [(opened)]="showFiller">
+  <div class="option_menu">
+    <p class="option-sidenav-logo">
+      <a href="https://www.amc.nl/web/specialismen/vasculaire-geneeskunde-vaatziekten/vasculaire-geneeskunde-vaatziekten/vascular-medicine-research.htm" target="_blank">
+        <img src="../../../assets/images/android-chrome-192x192.png" alt="amc-logo" class="logo">
+      </a>
+    </p>
+    <p class="option-sidenav">
+      <a href="">
+        <mat-icon aria-hidden="false" fontIcon="home" >home</mat-icon>
+      </a>
+    </p>
+    <p class="option-sidenav" > 
+      <button (click)="refresh_token()" class="noButton">
+        <mat-icon aria-hidden="false" fontIcon="refresh">vpn_key</mat-icon>
+      </button>
+    </p>
+    <!-- <p class="option-sidenav">
+      <a href="#">
+        <mat-icon aria-hidden="false" fontIcon="logout">logout</mat-icon>
+      </a>
+    </p> -->
+  </div>
+  <mat-divider class="divider" *ngIf="display"></mat-divider>
+  
+  <p class="title-sidenav">
+    {{'PARTICIPANTS.TITLE' | translate}}
+  </p>
+
+  <div id="patients_study">
+    <app-patients-view [study]="study_selected" (newItemEvent)="patientSelected($event)" (newItemEvent2)="formSelected($event)" (newItemEvent3)="listPatients($event)"></app-patients-view>
+  </div> 
+  
+</mat-drawer>
+  
+    
+  

@@ -1,0 +1,9 @@
+<div *ngIf="this.spinner.getLoading()" class="cssload-container">
+    <mat-spinner></mat-spinner>
+</div>
+
+<div *ngIf="this.spinner.getAuthFailed()" class="cssload-container">
+    <p>{{'ERROR.AUTHENTICATION_EXPIRED' | translate}}</p>
+    <br>
+    <p>{{'ERROR.RETRY_AUTHENTICATION' | translate}}</p>
+</div>

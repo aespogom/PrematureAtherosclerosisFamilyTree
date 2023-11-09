@@ -1,0 +1,11 @@
+<form class="search-bar">
+  <h4 class="option-sidenav">{{'PARTICIPANTS.TITLE' | translate}}</h4>
+  <mat-form-field appearance="fill">
+    <mat-label>{{'PARTICIPANTS.SUBTITLE' | translate}}</mat-label>
+    <mat-select [(ngModel)]="related_participant" name="participant" (selectionChange)="onPress()">
+      <mat-option *ngFor="let p of patient_list_filtered" [value]="p">
+        {{p.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</form>

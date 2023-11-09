@@ -1,0 +1,16 @@
+<mat-drawer-container class="example-container" autosize>
+  <app-sidenav [study_selected]="study_selected" (newItemEvent)="patientSelected($event)" (newItemEvent3)="formSelected($event)" (newItemEvent4)="patientsList($event)" *ngIf="display"></app-sidenav>
+  <div class="example-sidenav-content">     
+    <div id="tree_display" *ngIf="patient_selected">
+      <app-tree-view [patient]="patient_selected" [study]="study_selected" [form]="form" [patients]="patients" ></app-tree-view>
+    </div> 
+    <app-spinner></app-spinner>
+  </div>
+  <div class="change-language">
+    <mat-radio-group
+      [(ngModel)]="currentLang" (ngModelChange)="switchLang($event)">
+      <mat-radio-button [value]="lang.key" *ngFor="let lang of langs | keyvalue">{{lang.value}}</mat-radio-button>
+    </mat-radio-group>
+  </div>
+  <app-footer fxFlexOffset="auto"></app-footer>
+</mat-drawer-container>
