@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
+![Demo](https://github.com/aespogom/PrematureAtherosclerosisFamilyTree/blob/main/src/assets/images/premature-atherosclerosis-demo.gif)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
